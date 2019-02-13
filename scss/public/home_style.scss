@@ -1,0 +1,22 @@
+@import 'main';
+
+//Submit new thread container
+#submitNewBoard{
+  max-width: 525px;
+}
+
+//Board display container
+#boardDisplay{
+  max-width: 725px;
+}
+
+//Board card as link
+.board-link{
+  cursor: pointer;
+}
+
+
+//board card
+.board{
+  border: 2px solid $body-color;
+}

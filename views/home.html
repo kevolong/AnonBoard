@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Anonymous Message Board</title>
+    <link rel="stylesheet" href="/public/home_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  
+  <body class="px-3">
+    <header class="text-center">
+      <img src="https://cdn.glitch.com/cecc3735-6847-455d-bd6c-6a37cf748027%2Fanon_logo_transparent.png?1543278229928" width="250">
+      <h6 id="anonTitle">ANONYMOUS MESSAGE BOARD</h6>
+    </header>
+    
+    <main>
+    
+      <section id="submitNewBoard" class="container pt-3 pb-4 mb-5 text-center">
+        <h3>Create New Board</h3>
+        <form id="newBoard" method="post" action="/api/boards">
+          <input type="text" placeholder="Board name..." name="board" maxlength="25" required/>
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+    
+    <section id="boardDisplay" class="container pt-3 pb-4 px-5"></section>
+    
+      
+    </main>
+    
+    <footer></footer>
+   
+    <script src="/app/home.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,86 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #2b7def !important;
+  text-align: center;
+  line-height: 1.5em; }
+
+a {
+  text-decoration: none;
+  color: #2b7def !important;
+  font-weight: 500; }
+
+header {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #010f23 !important; }
+  header #anonTitle {
+    margin-bottom: 0; }
+  header .top-link {
+    cursor: pointer;
+    color: black !important;
+    font-weight: 500 !important; }
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 79, 0.75); }
+
+button {
+  font-size: 1rem;
+  padding: 2px 10px;
+  border-radius: 5px !important;
+  border: 1px groove #2b7def !important;
+  color: #2b7def !important;
+  background-color: white;
+  margin-top: .5rem; }
+
+.report-button {
+  margin-right: 3em; }
+
+button[type=submit] {
+  margin-left: .75em; }
+
+form input, form textarea {
+  font-weight: 300;
+  font-size: .9em;
+  border-radius: 5px;
+  border: 1px inset #2b7def !important;
+  padding: 3px;
+  padding-left: 7px; }
+
+form label {
+  font-weight: 500;
+  font-size: 1.15em;
+  line-height: 1.75em; }
+
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: .85rem;
+  font-weight: 300;
+  color: #010f23 !important; }
+  footer a {
+    color: #010f23 !important;
+    font-weight: 400; }
+
+#submitNewBoard {
+  max-width: 525px; }
+
+#boardDisplay {
+  max-width: 725px; }
+
+.board-link {
+  cursor: pointer; }
+
+.board {
+  border: 2px solid #2b7def !important; }
