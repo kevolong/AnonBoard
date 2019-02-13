@@ -1,0 +1,18 @@
+@import 'main';
+
+
+#fullThreadTitle{
+  margin-top: 1.5em;
+  margin-bottom: .2em;
+}
+
+//Board display container
+#threadDisplay{
+  max-width: 925px;
+}
+
+
+//Thread card
+.thread{
+  border: 2px solid $body-color;
+}

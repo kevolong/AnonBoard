@@ -1,0 +1,25 @@
+@import 'main';
+
+//Submit new thread container
+#submitNewThread{
+  max-width: 525px;
+}
+
+//Board display container
+#boardDisplay{
+  max-width: 925px;
+}
+
+//Thread card
+.thread{
+  border: 2px solid $body-color;
+}
+
+//Thread title link
+.thread-title-link {
+  //text-decoration: none !important;
+  cursor: pointer;
+  color: black !important;
+  font-weight: 500 !important;
+}
+.thread-title-link:hover { color: $body-color; }

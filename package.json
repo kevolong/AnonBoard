@@ -1,0 +1,36 @@
+{
+	"name": "fcc-anon-msgboard-kl",
+	"version": "0.0.1",
+	"description": "Anonymous Message Board API allows anonymous message board threads to be posted, updated, reported, and deleted.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+    "test": "mocha"
+	},
+	"dependencies": {
+		"express": "^4.14.0",
+		"cors": "^2.8.1",
+		"body-parser": "^1.15.2",
+		"chai": "^3.5.0",
+		"mongodb": "^2.2.16",
+    "mongoose": "^5.2.13",
+		"chai-http": "^3.0.0",
+		"mocha": "^3.2.0",
+		"helmet": "^3.1.0",
+    "node-sass": "^4.9.3",
+    "node-sass-middleware": "^0.11.0"
+	},
+	"engines": {
+		"node": "8.12.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
